@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.list-item:nth-child(even) {
+  background-color: lightyellow;
+}
+.list-item:nth-child(odd) {
+  background-color: linen;
+}
+body{
+  background-color: #D4F1F4;
+}
